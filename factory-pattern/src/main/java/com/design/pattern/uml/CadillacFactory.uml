@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.design.pattern.factory.factorymethod.CadillacFactory</OriginalElement>
+  <nodes>
+    <node x="160.0" y="103.0">com.design.pattern.factory.factorymethod.AudiFactory</node>
+    <node x="313.0" y="201.0">com.design.pattern.factory.factorymethod.FactoryTest</node>
+    <node x="80.0" y="0.0">com.design.pattern.factory.factorymethod.ICarFactory</node>
+    <node x="72.0" y="201.0">com.design.pattern.factory.common.ICar</node>
+    <node x="144.0" y="304.0">com.design.pattern.factory.common.AudiCar</node>
+    <node x="0.0" y="103.0">com.design.pattern.factory.factorymethod.CadillacFactory</node>
+    <node x="0.0" y="304.0">com.design.pattern.factory.common.CadillacCar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.design.pattern.factory.common.CadillacCar" target="com.design.pattern.factory.common.ICar">
+      <point x="0.0" y="-26.5" />
+      <point x="62.0" y="279.0" />
+      <point x="103.0" y="279.0" />
+      <point x="-31.0" y="26.5" />
+    </edge>
+    <edge source="com.design.pattern.factory.common.AudiCar" target="com.design.pattern.factory.common.ICar">
+      <point x="0.0" y="-26.5" />
+      <point x="206.0" y="279.0" />
+      <point x="165.0" y="279.0" />
+      <point x="31.0" y="26.5" />
+    </edge>
+    <edge source="com.design.pattern.factory.factorymethod.AudiFactory" target="com.design.pattern.factory.factorymethod.ICarFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="230.0" y="78.0" />
+      <point x="185.0" y="78.0" />
+      <point x="35.0" y="26.5" />
+    </edge>
+    <edge source="com.design.pattern.factory.factorymethod.CadillacFactory" target="com.design.pattern.factory.factorymethod.ICarFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="70.0" y="78.0" />
+      <point x="115.0" y="78.0" />
+      <point x="-35.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="244.0" y="178.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

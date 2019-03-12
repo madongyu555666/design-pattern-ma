@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.design.pattern.factory.abstractfactory.CommonFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="448.0">com.design.pattern.factory.abstractfactory.abstractFactoryTest</node>
+    <node x="182.0" y="126.0">com.design.pattern.factory.abstractfactory.CadillacFactory</node>
+    <node x="74.0" y="247.0">com.design.pattern.factory.abstractfactory.IBus</node>
+    <node x="148.0" y="350.0">com.design.pattern.factory.abstractfactory.AudiIBus</node>
+    <node x="0.0" y="126.0">com.design.pattern.factory.abstractfactory.AudiFactory</node>
+    <node x="91.0" y="0.0">com.design.pattern.factory.abstractfactory.CommonFactory</node>
+    <node x="393.0" y="247.0">com.design.pattern.factory.common.ICar</node>
+    <node x="465.0" y="350.0">com.design.pattern.factory.common.AudiCar</node>
+    <node x="321.0" y="350.0">com.design.pattern.factory.common.CadillacCar</node>
+    <node x="0.0" y="350.0">com.design.pattern.factory.abstractfactory.CadillacIBus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.design.pattern.factory.common.CadillacCar" target="com.design.pattern.factory.common.ICar">
+      <point x="0.0" y="-26.5" />
+      <point x="383.0" y="325.0" />
+      <point x="424.0" y="325.0" />
+      <point x="-31.0" y="26.5" />
+    </edge>
+    <edge source="com.design.pattern.factory.abstractfactory.AudiFactory" target="com.design.pattern.factory.abstractfactory.CommonFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="81.0" y="101.0" />
+      <point x="131.5" y="101.0" />
+      <point x="-40.5" y="38.0" />
+    </edge>
+    <edge source="com.design.pattern.factory.abstractfactory.CadillacIBus" target="com.design.pattern.factory.abstractfactory.IBus">
+      <point x="0.0" y="-26.5" />
+      <point x="64.0" y="325.0" />
+      <point x="106.0" y="325.0" />
+      <point x="-32.0" y="26.5" />
+    </edge>
+    <edge source="com.design.pattern.factory.common.AudiCar" target="com.design.pattern.factory.common.ICar">
+      <point x="0.0" y="-26.5" />
+      <point x="527.0" y="325.0" />
+      <point x="486.0" y="325.0" />
+      <point x="31.0" y="26.5" />
+    </edge>
+    <edge source="com.design.pattern.factory.abstractfactory.AudiIBus" target="com.design.pattern.factory.abstractfactory.IBus">
+      <point x="0.0" y="-26.5" />
+      <point x="212.0" y="325.0" />
+      <point x="170.0" y="325.0" />
+      <point x="32.0" y="26.5" />
+    </edge>
+    <edge source="com.design.pattern.factory.abstractfactory.CadillacFactory" target="com.design.pattern.factory.abstractfactory.CommonFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="263.0" y="101.0" />
+      <point x="212.5" y="101.0" />
+      <point x="40.5" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="81.0" y="147.5" />
+  <SelectedNodes>
+    <node>com.design.pattern.factory.abstractfactory.CommonFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
