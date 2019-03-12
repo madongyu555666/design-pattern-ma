@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>factory-pattern</module>
+    <module>singleton-pattern</module>
   </modules>
 
   <name>design-pattern-ma</name>
