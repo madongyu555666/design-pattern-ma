@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.design.pattern.staticproxyinstance.DataSourceServiceStaticProxy</OriginalElement>
+  <nodes>
+    <node x="383.0" y="137.5">com.design.pattern.staticproxyinstance.DataSourceService</node>
+    <node x="229.5" y="0.0">com.design.pattern.staticproxyinstance.IDataSourceService</node>
+    <node x="263.0" y="318.0">com.design.pattern.staticproxyinstance.DynamicDataSourceEntry</node>
+    <node x="238.0" y="601.0">com.design.pattern.staticproxyinstance.Main</node>
+    <node x="0.0" y="318.0">com.design.pattern.staticproxyinstance.DataSource</node>
+    <node x="0.0" y="601.0">com.design.pattern.staticproxyinstance.DataSourceDao</node>
+    <node x="0.0" y="103.0">com.design.pattern.staticproxyinstance.DataSourceServiceStaticProxy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.design.pattern.staticproxyinstance.DataSourceServiceStaticProxy" target="com.design.pattern.staticproxyinstance.IDataSourceService">
+      <point x="0.0" y="-85.0" />
+      <point x="181.5" y="78.0" />
+      <point x="287.5" y="78.0" />
+      <point x="-58.0" y="26.5" />
+    </edge>
+    <edge source="com.design.pattern.staticproxyinstance.DataSourceService" target="com.design.pattern.staticproxyinstance.IDataSourceService">
+      <point x="0.0" y="-50.5" />
+      <point x="509.5" y="78.0" />
+      <point x="403.5" y="78.0" />
+      <point x="58.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="181.5" y="339.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

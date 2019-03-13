@@ -11,6 +11,8 @@
   <modules>
     <module>factory-pattern</module>
     <module>singleton-pattern</module>
+    <module>prototype-pattern</module>
+    <module>proxy-pattern</module>
   </modules>
 
   <name>design-pattern-ma</name>
@@ -21,9 +23,29 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <spring.version>5.0.2.RELEASE</spring.version>
   </properties>
 
   <dependencies>
+
+    <!-- spring framework start -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>cglib</groupId>
+      <artifactId>cglib-nodep</artifactId>
+      <version>2.2</version>
+    </dependency>
+
 
     <dependency>
       <groupId>commons-lang</groupId>
