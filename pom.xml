@@ -13,6 +13,7 @@
     <module>singleton-pattern</module>
     <module>prototype-pattern</module>
     <module>proxy-pattern</module>
+      <module>delegate-strategy-pattern</module>
   </modules>
 
   <name>design-pattern-ma</name>
