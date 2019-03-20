@@ -14,6 +14,8 @@
     <module>prototype-pattern</module>
     <module>proxy-pattern</module>
       <module>delegate-strategy-pattern</module>
+      <module>template-adapter-pattern</module>
+      <module>decorator-observer-pattern</module>
   </modules>
 
   <name>design-pattern-ma</name>
