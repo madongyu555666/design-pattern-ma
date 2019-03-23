@@ -1,0 +1,30 @@
+单例模式：只创建一个对象
+工厂方法模式：生产对象
+抽象工厂模式：生产很多产品
+原型模式：复制
+适配器模式：新接口兼容老接口
+装饰者模式：在原有的功能上添加新功能
+代理模式：找个中间人
+委派模式：功劳是我的，指派别人干活
+策略模式：根据不同的命令，去干不同的事
+观察者模式：通知
+模板模式：定义流程，让子类干活
+
+spring
+aop 事物，日志
+<tx:advice...
+<aop:config>
+    <aop:poincut id="" expression="execution(.......)....">...
+
+@Aspect
+
+
+IOC
+@Controller
+@Service
+
+
+DI
+@Autowired
+@Resource
+
