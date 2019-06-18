@@ -16,6 +16,7 @@
       <module>delegate-strategy-pattern</module>
       <module>template-adapter-pattern</module>
       <module>decorator-observer-pattern</module>
+      <module>seven-principles</module>
   </modules>
 
   <name>design-pattern-ma</name>
